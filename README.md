@@ -1,24 +1,63 @@
 # vue-ui-router
 
-## Project setup
-```
-yarn install
-```
+A Vue implementation of the popular ui-router plugin.
+This is based on the AngularJS/ui-router implementation.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## TODO
 
-### Compiles and minifies for production
-```
-yarn build
-```
+#### Directives
 
-### Lints and fixes files
-```
-yarn lint
-```
+- [ ] ui-sref
+- [ ] ui-sref-active
+- [ ] ui-sref-axtive-eq
+- [ ] ui-state
+- [ ] ui-view
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#### Providers
+
+- [ ] $uiRouterProvider 
+- [ ] $stateProvider
+- [ ] $transitionsProvider
+- [ ] $urlServiceProvider
+- [ ] $uiViewScrollProvide
+- [ ] $urlRouterProvider
+- [ ] $urlMatcherFactoryProvider
+
+#### Services
+
+- [ ] $uiRouter
+- [ ] $trace
+- [ ] $transitions
+- [ ] $state
+- [ ] $stateRegistry
+- [ ] $urlService
+- [ ] $uiRouterGlobals
+- [ ] $uiViewScroll
+- [ ] $stateParams
+- [ ] $urlRouter
+- [ ] $urlMatcherFactory
+
+#### Filters
+
+- [ ] is-state
+- [ ] included-by-state
+
+## No Current Plans to Migrate
+
+The following are considered deprecated, and I don't plan on
+migrating them.
+
+If someone would really like these features, PRs are always welcome.
+
+#### Services
+
+$resolve
+
+#### State Events
+
+$stateChangeStart
+$stateChangeCancel
+$stateChangeSuccess
+$stateChangeError
+$stateNotFound
+
